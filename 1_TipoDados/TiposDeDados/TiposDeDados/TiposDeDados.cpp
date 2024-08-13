@@ -7,8 +7,9 @@ using namespace std;
 int main()
 {
 	cout << "Estrutura de Dados - Fatec" << endl;
-	
-	cout << "Tipos Numericos\n";
+	// cout = serve igual o escreva do portugol; endl = quebra de linha tipo o br; \n = \n no portugol; << = mandar escrever
+	cout << "Aula 13/08/2024 - Millena Reis\n";
+
 	cout << "===============\n";
 	int i = 10;
 	short s = 18;
@@ -16,8 +17,8 @@ int main()
 	float f = 1.97F;
 	double  d = 4.73;
 	cout << "Inteiros\n";
-	cout << "  int i = " << i << " ocupa " << sizeof(i) << " bytes\n";
-	cout << "short s = " << s << " ocupa " << sizeof(s) << " bytes\n";
+	cout << "  int i = " << i << " ocupa " << sizeof(i) << " bytes\n"; // sizeof = tanho do custo da memoria do pc
+	cout << "short s = " << s << " ocupa " << sizeof(s) << " bytes\n"; 
 	cout << "long  l = " << l << " ocupa " << sizeof(l) << " bytes\n\n";
 	cout << "Ponto Flutuante (Reais)\n";
 	cout << " float f = " << f << " ocupa " << sizeof(f) << " bytes\n";
@@ -35,12 +36,12 @@ int main()
 
 	cout << "\nTipo string\n";
 	cout << "===========\n";
-	string texto = "Estrutura de Dados vai ser moleza!";
+	string texto = "Estrutura de Dados vai ser moleza!"; // string = armazenar textos ou frases
 	cout << "string texto = \"" << texto << "\" ocupa " << sizeof(texto) << " bytes\n";
 
 	cout << "\nPonteiros\n";
 	cout << "===========\n";
-	string* ponteiro = &texto;
+	string* ponteiro = &texto; //não e uma string é apenas a indicação o local da memoria do texto
 	cout << "Para a variavel 'texto' do exemplo acima: string* ponteiro = &texto\nO endereco da memoria onde o valor foi armazenado (ponteiro)  = " << ponteiro << endl;
 	cout << "O valor armazendo no local indicado pelo ponteiro e *ponteiro = \"" << *ponteiro << "\"";
 
@@ -58,8 +59,8 @@ int main()
 	int horas = 0;
 	int minutos = 0;
 
-	cout << "Digite seu nome: ";
-	cin >> nome;
+	cout << "Digite seu nome: "; //aparece na tela
+	cin >> nome; // escrever
 	cout << "Digite sua idade: ";
 	cin >> idade;
 	dias = idade * 365;
