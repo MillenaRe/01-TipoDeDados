@@ -8,7 +8,7 @@ int main()
 {
 	cout << "Estrutura de Dados - Fatec" << endl;
 	// cout = serve igual o escreva do portugol; endl = quebra de linha tipo o br; \n = \n no portugol; << = mandar escrever
-	cout << "Aula 13/08/2024 - Millena Reis\n";
+	cout << "Aula 13/08/2024 - Gabriel Cavalcanti\n";
 
 	cout << "===============\n";
 	int i = 10;
